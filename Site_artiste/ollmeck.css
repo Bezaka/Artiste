@@ -1,0 +1,279 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color:rgba(1, 22, 22, 0.349); */
+    min-height: 100vh;
+    background: url(./Ôllmck/dg.jpg) center/cover;
+    justify-content: space-around;
+}
+
+header {
+    background-color: #020b13a2;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 35%;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    gap: 15rem;
+    margin: auto;
+    padding: 30px 10px;
+    text-align: center;
+    background-color: rgba(2, 10, 46, 0.945);
+
+}
+
+#tê:hover {
+    transform: scale(2);
+    /* font-size: 25px; */
+    color: rgb(0, 255, 221);
+    /* background-color: rgba(243, 240, 236, 0.103); */
+    /* border-radius: 30px; */
+    /* width: 150px; */
+    /* padding: 5px; */
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+    letter-spacing: 1.5px;
+    cursor: pointer;
+    padding: 0 20px;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.face {
+    background: url(./Ôllmck/Cap1.png) center/cover;
+    text-align: center;
+}
+
+.face .profile .mec {
+    width: 124px;
+    height: 124px;
+    display: flex;
+    object-fit: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    border-radius: 100%;
+    box-shadow: 0 13px 26px;
+    justify-content: center;
+
+}
+
+.face .profile .name {
+    color: rgba(101, 137, 168, 0.801);
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.face .profile .btn {
+    border-radius: 25px;
+    color: rgb(10, 10, 9);
+    font-size: 18px;
+    justify-content: center;
+    background-color: rgba(52, 221, 165, 0.507);
+    align-items: center;
+    cursor: pointer;
+    ;
+}
+
+.btn:hover {
+    color: yellow;
+    background-color: rgb(63, 235, 235);
+    font-size: 25px;
+    width: 150px;
+    height: 30px;
+}
+
+.text {
+    color: rgba(247, 249, 250, 0.966);
+    text-align: center;
+    font-size: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+#photo {
+    background-color: rgba(39, 2, 2, 0.075);
+    height: 400px;
+    border-radius: 20px;
+}
+
+.photo {
+    text-align: center;
+    font-size: 25px;
+    color: rgba(221, 162, 13, 0.877);
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    position: relative;
+
+}
+
+.cas {
+    cursor: pointer;
+}
+
+.cas p {
+    text-align: center;
+    color: rgba(3, 131, 125, 0.973);
+}
+
+.mag {
+    border-radius: 05px;
+}
+
+.reservation {
+    color: rgba(119, 33, 189, 0.678);
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contact {
+    color: rgba(168, 157, 5, 0.753);
+    text-align: center;
+    font-size: 20px;
+}
+
+.bio {
+    color: rgba(189, 186, 2, 0.788);
+    text-align: center;
+    font-size: 20px;
+}
+
+.paragraphe {
+    color: white;
+    text-align: center;
+    font-size: 21px;
+    width: 85%;
+    height: 500px;
+    background-color: rgba(10, 17, 17, 0.247);
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.action {
+    background-color: rgba(1, 11, 12, 0.37);
+    padding: 15px;
+    height: 350px;
+    width: 55%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+input,
+textarea {
+    margin: 8px;
+    padding: 10px;
+    border: 3px solid rgba(42, 7, 75, 0.452);
+    border-radius: 08px;
+    font-size: 1.12rem;
+}
+
+label {
+    color: rgba(236, 241, 241, 0.897);
+    font-size: 25px;
+}
+
+#bt {
+    border-radius: 10px;
+    font-size: 15px;
+    color: rgba(5, 36, 94, 0.801);
+    cursor: pointer;
+    width: 120px;
+    height: 35px;
+}
+
+#bt:hover {
+    background: rgba(3, 36, 73, 0.589);
+    color: aliceblue;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 5px 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    letter-spacing: 3px;
+}
+
+.signe {
+    display: flex;
+    gap: 20rem;
+    justify-content: center;
+}
+
+.ft:hover {
+    color: aqua;
+    cursor: pointer;
+}
+.mail{
+    color: white;
+}
+
+.mail:hover{
+    color: aqua;
+}
+@media screen and(max-width:1200px) {
+    .footer {
+        width: 100%;
+    }
+
+    .gallery {
+        flex-direction: column;
+    }
+
+    .gallery .cas {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+/* *{ 
+    margin: 0;
+    padding: 0;
+}
+*/
+header.sticky{
+    background:rgba(110, 3, 8, 0.945);
+    padding: 10px 10px;
+}

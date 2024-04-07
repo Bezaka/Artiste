@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+
+<body>
+    <a href="ollmeck.html">
+        <h1>.Accueil</h1>
+    </a>
+    <section id="rsv">
+        <div class="reserve">
+            <h2>Réservation</h2>
+        </div>
+        <p>Veuillez remplir ceci si vous souhaitez de faire une réservation, l'adresse sera mentioner dans le message. </p>
+        <div class="action">
+            <br>
+            <form action="send_email.php" method="post">
+                <label for="name">Nom:</label>
+                <input type="text" id="name" name="name" required placeholder="Votre nom">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Adresse email">
+                <label for="date">Date de réservation:</label>
+                <input type="date" id="date">
+                <label for="time">Heure</label>
+                <input type="time" id="time">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required placeholder="saisir le message"></textarea>
+                <button type="submit" id="bt">reservé</button>
+            </form>
+        </div>
+    </section>
+    <style>
+        body {
+            background: url(./Ôllmck/123.jpg) center/cover;
+            justify-content: space-around;
+        }
+        h1{
+            color: darkgreen;
+        }
+        h2{
+            color: rgba(224, 193, 14, 0.925);
+            text-align: center;
+            font-size: 30px;
+        }
+        p{
+            text-align: center;
+            color: midnightblue;
+            font-size: 20px;
+        }
+        .action {
+    background-color: rgba(139, 207, 216, 0.534);
+    padding: 15px;
+    height: 350px;
+    width: 55%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+input, textarea{
+    margin: 8px;
+    padding: 10px;
+    border: 3px solid rgba(42, 7, 75, 0.452);
+    border-radius: 08px;
+    font-size: 1.12rem;
+}
+
+label{
+    color: rgba(5, 34, 34, 0.849);
+    font-size: 25px;
+}
+#bt{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+#bt:hover{
+    width: 105px;
+    background-color: aqua;
+    cursor: pointer;
+}
+    </style>
+</body>
+
+</html>
