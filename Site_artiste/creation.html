@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>creation</title>
+</head>
+
+<body>
+    <header>
+        <a href="ollmeck.html">
+            <h1>.Accueil</h1>
+        </a>
+        <h2>CREATION</h2>
+    </header>
+
+    <img src="./Ôllmck/cra.png" height="300px" width="100%" alt="image">
+    <p>Si vous souhaitez qu'on vous créer des morceaux, Veuillez remplir la formuaire ci-déssous!</p>
+    <div class="bac">
+        <h3> Formulaire </h3>
+        <form action="send_email.php" method="post">
+            <div class="form">
+                <input type="text" placeholder="Nom">
+                <select id="gender">
+                    <option selected value="Instrumental">Instrumental</option>
+                    <option value="Melodie">Melodie</option>
+                    <option value="Audio_musique">Audio_musique</option>
+                    <option value="Vidéo_complet">Vidéo_complet</option>
+                </select>
+                <textarea id="message" name="message" required placeholder="saisir le message"></textarea>
+                <button type="submit" id="bt">Envoyé</button>
+            </div>
+        </form>
+    </div>
+    <style>
+        body {
+            /* background-color: rgba(22, 22, 2, 0.534); */
+            background: url(./Ôllmck/form.png) center/cover;
+            justify-content: space-around;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+
+        }
+
+        h1 {
+            color: rgb(78, 245, 236);
+            letter-spacing: 3px;
+            font-size: 25px;
+        }
+
+        header {
+            top: 0;
+            background-color: #010c16;
+            padding: 05px;
+            text-transform: uppercase;
+            display: flex;
+            gap: 25rem;
+        }
+
+        h2 {
+            color: white;
+            text-align: center;
+        }
+
+        h3 {
+            color: black;
+            text-align: center;
+            font-size: 30px;
+        }
+        p{
+            color: white;
+            font-size: 20px;
+        }
+
+        .form {
+            background-color: rgba(255, 217, 0, 0.164);
+            padding: 15px;
+            height: 350px;
+            width: 55%;
+            border-radius: 10px;
+            margin: 0 auto;
+            text-align: center;
+            display: grid;
+            justify-content: space-around;
+            align-items: center;
+            grid-template-columns: 1fr;
+        }
+
+        input,
+        textarea {
+            margin: 8px;
+            padding: 10px;
+            border: 3px solid rgba(42, 7, 75, 0.452);
+            border-radius: 08px;
+            font-size: 1.12rem;
+        }
+
+        #bt {
+            height: 30px;
+            width: 100px;
+            border-radius: 8px;
+            font-size: 20px;
+        }
+
+        #bt:hover {
+            width: 105px;
+            background-color: aqua;
+            cursor: pointer;
+        }
+    </style>
+</body>
+
+</html>
